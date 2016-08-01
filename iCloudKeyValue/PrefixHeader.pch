@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  iCloudKeyValue
+//
+//  Created by Gennadii Potapov on 30/7/16.
+//  Copyright © 2016 General Arcade. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+void iCloudKV_Synchronize();
+void iCloudKV_SetInt(char * key, int value);
+void iCloudKV_SetFloat(char * key, float value);
+int iCloudKV_GetInt(char * key);
+float iCloudKV_GetFloat(char * key);
+void iCloudKV_Reset();
+
+#endif /* PrefixHeader_pch */
