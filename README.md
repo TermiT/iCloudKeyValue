@@ -28,7 +28,7 @@ public static class SomeClass
 	
 	// Use this for initialization
 	void Start () {
-		iCloudKV_Synchronize();
+	  iCloudKV_Synchronize();
 	  int test = iCloudKV_GetInt("test");
 	  Debug.Log("iCloud Key-Value test: " + test);
 	  test++;
